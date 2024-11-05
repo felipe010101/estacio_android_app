@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet, Alert } from 'react-native';
 
-export default function Cadastro() {
+export default function Listagem() {
 
   const [cadastrante, setCadastrante] = useState('');
   const [tipo, setTipo] = useState('');
